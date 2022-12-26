@@ -22,8 +22,8 @@ def ls_menu():
 
         if n == 1:
             lg.logging.info('The user has selected item number 1')
-            #print(cr.retrive())
-            cr.retrive()
+            print(cr.retrive())
+            #cr.retrive()
 
         elif n == 2:
             lg.logging.info('The user has selected item number 2')

@@ -70,8 +70,11 @@ def retrive(id='', name='', surname='', number='', email=''):
     else:
         # выход список списков (переделать в строку с разделителем)
         #return result
+        str = ''
         for item in result:
-            print(item)
+            #print(' '.join(item))
+            str = str + ' '.join(item) + '\n'
+        return str
 
 
 
